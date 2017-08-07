@@ -1,0 +1,80 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Android.mk
+* MODULE_LICENSE_APACHE2
+* NOTICE
+* README.md
+* docs\
+* docs\demo_mode.md
+* proguard.flags
+* tests\
+* tests\Android.mk
+* tests\AndroidManifest.xml
+* tests\res\
+* tests\res\layout\
+* tests\res\layout\main.xml
+* tests\src\
+* tests\src\com\
+* tests\src\com\android\
+* tests\src\com\android\systemui\
+* tests\src\com\android\systemui\SysuiTestCase.java
+* tests\src\com\android\systemui\notification\
+* tests\src\com\android\systemui\notification\VisualStabilityManagerTest.java
+* tests\src\com\android\systemui\phone\
+* tests\src\com\android\systemui\phone\DozeParametersTests.java
+* tests\src\com\android\systemui\qs\
+* tests\src\com\android\systemui\qs\TouchAnimatorTests.java
+* tests\src\com\android\systemui\qs\external\
+* tests\src\com\android\systemui\qs\external\TileLifecycleManagerTests.java
+* tests\src\com\android\systemui\qs\external\TileServiceManagerTests.java
+* tests\src\com\android\systemui\qs\external\TileServicesTests.java
+* tests\src\com\android\systemui\recents\
+* tests\src\com\android\systemui\recents\IRecentsNonSystemUserCallbacks.aidl
+* tests\src\com\android\systemui\recents\IRecentsSystemUserCallbacks.aidl
+* tests\src\com\android\systemui\screenshot\
+* tests\src\com\android\systemui\screenshot\ScreenshotStubActivity.java
+* tests\src\com\android\systemui\screenshot\ScreenshotTest.java
+* tests\src\com\android\systemui\statusbar\
+* tests\src\com\android\systemui\statusbar\policy\
+* tests\src\com\android\systemui\statusbar\policy\CallbackHandlerTest.java
+* tests\src\com\android\systemui\statusbar\policy\NetworkControllerBaseTest.java
+* tests\src\com\android\systemui\statusbar\policy\NetworkControllerDataTest.java
+* tests\src\com\android\systemui\statusbar\policy\NetworkControllerEthernetTest.java
+* tests\src\com\android\systemui\statusbar\policy\NetworkControllerSignalTest.java
+* tests\src\com\android\systemui\statusbar\policy\NetworkControllerWifiTest.java
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\android\systemui\EventLogTags.logtags => app\src\main\resources\com\android\systemui\EventLogTags.logtags
+* src\com\android\systemui\recents\IRecentsNonSystemUserCallbacks.aidl => app\src\main\aidl\com\android\systemui\recents\IRecentsNonSystemUserCallbacks.aidl
+* src\com\android\systemui\recents\IRecentsSystemUserCallbacks.aidl => app\src\main\aidl\com\android\systemui\recents\IRecentsSystemUserCallbacks.aidl
+* src\com\android\systemui\statusbar\phone\touch_analytics.proto => app\src\main\resources\com\android\systemui\statusbar\phone\touch_analytics.proto
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

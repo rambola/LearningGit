@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * BORQS Software Solutions Pvt Ltd. CONFIDENTIAL
+ * Copyright (c) 2016 All rights reserved.
+ *
+ * The source code contained or described herein and all documents
+ * related to the source code ("Material") are owned by BORQS Software
+ * Solutions Pvt Ltd. No part of the Material may be used,copied,
+ * reproduced, modified, published, uploaded,posted, transmitted,
+ * distributed, or disclosed in any way without BORQS Software
+ * Solutions Pvt Ltd. prior written permission.
+ *
+ * No license under any patent, copyright, trade secret or other
+ * intellectual property right is granted to or conferred upon you
+ * by disclosure or delivery of the Materials, either expressly, by
+ * implication, inducement, estoppel or otherwise. Any license
+ * under such intellectual property rights must be express and
+ * approved by BORQS Software Solutions Pvt Ltd. in writing.
+ *
+ *-->
+<resources>
+    <!-- XP5: Recents -->
+    <!-- Recent Applications parameters -->
+    <!-- Upper width limit for application icon -->
+    <dimen name="status_bar_recents_app_icon_max_width">48dp</dimen>
+    <!-- Upper height limit for application icon -->
+    <dimen name="status_bar_recents_app_icon_max_height">48dp</dimen>
+    <!-- How far the thumbnail for a recent app appears from top edge -->
+    <dimen name="status_bar_recents_thumbnail_top_margin">5dp</dimen>
+    <!-- Min alpha % that recent items will fade to while being dismissed -->
+    <integer name="config_recent_item_min_alpha">0</integer>
+
+    <!-- Size of application thumbnail -->
+    <dimen name="status_bar_recents_thumbnail_width">164dp</dimen>
+    <dimen name="status_bar_recents_thumbnail_height">145dp</dimen>
+    <dimen name="status_bar_recents_thumbnail_bg_padding">4dp</dimen>
+
+    <!-- Size of application label text -->
+    <dimen name="status_bar_recents_app_label_text_size">14dip</dimen>
+    <!-- Size of application description text -->
+    <dimen name="status_bar_recents_app_description_text_size">14dip</dimen>
+    <!-- Size of fading edge for text -->
+    <dimen name="status_bar_recents_text_fading_edge_length">20dip</dimen>
+    <!-- Size of fading edge for scrolling -->
+    <dimen name="status_bar_recents_scroll_fading_edge_length">10dip</dimen>
+    <!-- Margin between recents container and glow on the right -->
+    <dimen name="status_bar_recents_right_glow_margin">100dip</dimen>
+    <!-- How far the thumbnail for a recent app appears from left edge -->
+    <dimen name="status_bar_recents_thumbnail_left_margin">20dp</dimen>
+    <!-- Padding for text descriptions -->
+    <dimen name="status_bar_recents_text_description_padding">8dp</dimen>
+    <!-- Width of application label text -->
+    <dimen name="status_bar_recents_app_label_width">88dip</dimen>
+    <!-- Left margin of application label text -->
+    <dimen name="status_bar_recents_app_label_left_margin">3dip</dimen>
+    <!-- Padding between recents items -->
+    <dimen name="status_bar_recents_item_padding">3dip</dimen>
+    <!-- When recents first appears, how far the icon and label of the primary activity
+         travel -->
+    <dimen name="status_bar_recents_app_icon_translate_distance">35dip</dimen>
+
+    <!-- Where to place the app icon over the thumbnail -->
+    <dimen name="status_bar_recents_app_icon_left_margin">3dp</dimen>
+    <dimen name="status_bar_recents_app_icon_top_margin">8dp</dimen>
+</resources>

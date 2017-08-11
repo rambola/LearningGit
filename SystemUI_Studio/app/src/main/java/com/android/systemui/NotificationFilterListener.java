@@ -35,15 +35,9 @@ public class NotificationFilterListener extends BroadcastReceiver
 
         if(enableFiltering) {
             getWhiteListedAppsFromProvider(context, intent.getStringExtra(Intent.EXTRA_SONIM_CONTENT_URI));
-//            readFile(intent.getStringExtra("KioskFile"));
         }
         else
             mPackageList.clear();
-
-        /*if (isMyLauncherDefault(context)) {
-            System.setProperty("persist.sys.mcl_mode", "true");
-            readFile(context);
-        }*/
 
 //        ((SystemUIApplication) context).startServicesIfNeeded();
 

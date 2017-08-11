@@ -68,7 +68,6 @@ public class NotificationFilterListener extends BroadcastReceiver
 //            Log.d("SystemUI", "SystemUI, NotificationFilterListener, packageName: " + statusBarNotifications[i].getPackageName() + ", statusBarNotifications[i].getId(): " + statusBarNotifications[i].getId());
 //        }
 
-//        SystemUIApplication app = (SystemUIApplication) context;
         SystemUIApplication app = (SystemUIApplication) context.getApplicationContext();
         PhoneStatusBar statusBar = app.getComponent(PhoneStatusBar.class);
         statusBar.requestNotificationUpdate();
